@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1" />
+    <title>HOME</title>
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+      }
+      #header {
+        background-color: black;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+      }
+      #header h1 a {
+        float: left;
+        padding: 11px 0;
+        color: white;
+        text-decoration: none;
+      }
+      #header ul {
+        float: right;
+      }
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+      .container:after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      #header ul li {
+        display: inline-block;
+      }
+      #header ul li a {
+        display: inline-block;
+        padding: 20px 20px;
+        text-decoration: none;
+        color: white;
+      }
+      #header ul li a:hover {
+        background-color: white;
+      }
+      #banner {
+        height: 112vh;
+        background: url("bannerr.jpeg");
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+      #konten{
+        background-color: gray;
+      }
+      .kotak {
+        padding: 20px 20px;
+      }
+      .kotak h1 {
+        color: black;
+      }
+      .kotak p {
+        margin-top: 20px;
+        font-size: 140%;
+        color: black;
+        font-family: Georgia;
+
+      }
+      img {
+        height: 370px;
+        width: 250px;
+        border-radius: 15px;
+        margin-top: 20px;
+      }
+      div.box img:hover {
+        transform: translateY(-5%);
+        transition: 0.7s;
+      }
+      .box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      #email {
+        display: flex;
+        padding: 10vh 0;
+      }
+      .gambar {
+        height: 50vh;
+        width: 50vw;
+      }
+      .dalem {
+        margin: auto;
+        color: black;
+        border: none;
+      }
+      div.gambar img {
+        margin: 0;
+        border-radius: 0;
+        height: 100%;
+        width: 100%;
+      }
+      #isi {
+        background: white;
+        border: 3px solid black;
+        box-sizing: border-box;
+        border-radius: 10px;
+      }
+      button {
+        padding: 5px 5px;
+        color: white;
+        background-color: black;
+        border-color: snow;
+        border-radius: 5px;
+        margin-left: 15vw;
+      }
+      #footer {
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-color: black;
+        color: white;
+      }
+      @media (max-width: 720px) {
+        img {
+          height: 400px;
+          width: 320px;
+        }
+        #banner{
+          height: 60vh;
+        }
+        #email {
+          flex-wrap: wrap;
+          color: white;
+        }
+        .gambar {
+          width: 80%;
+          height: 80%;
+          margin-bottom: 50px;
+        }
+        .dalem {
+          margin: 10px 10px;
+          color: white;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <h1>
+          <a href="Home.html">HOME</a>
+        </h1>
+        <ul>
+          <li><a href="mostjobs.html">About Us</a></li>
+          <li><a href="kontak.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="banner">
+      <h1></h1>
+    </div>
+    <div id="konten">
+      <div class="kotak">
+              <p>
+              kamu punya produk baju,makan,minuman tapi masih jelek hasilnya?dan kalian 
+              yang hobby foto-foto tapi hasilnya masih gitu-gitu aja?yuk pakai jasa foto Sr Motret
+              untuk meningkatkan kualitas foto kalian.
+                 
+              </p>
+       </div>
+        <div class="kotak">
+        <h1>kami menyediakan berbagai layanan foto:</h1>
+        <div class="box">
+          <a href="hunting.html"><img src="HUNTING.jpeg" alt="" /></a>
+          <a href="prewed.html"><img src="fotoPrewed.jpeg" alt="" /></a>
+          <a href="produk.html"><img src="bgproduk.jpeg" alt="" /></a>
+          <a href="tunangan.html"><img src="engagement.jpeg" alt="" /></a>
+        </div>
+      </div>
+      <div id="email">
+        <div class="gambar"><img src="banner.jpeg" alt="" /></div>
+        <div class="dalem">
+          <h1>Halo!</h1>
+          <p>
+            BERI SARAN DAN MASUKKAN!
+          </p>
+          <br />
+          <p id="isi" align="center">dewifauziyah549@gmail.com</p>
+          <br />
+          <button type="submit">Kirim Email</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html> 

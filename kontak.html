@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: initial;
+      }
+      #header {
+        background-color: black;
+        position: sticky;
+        top: 0;
+      }
+      #header h1 a {
+        float: left;
+        padding: 11px 0;
+        color: white;
+        text-decoration: none;
+      }
+      #header ul {
+        float: right;
+      }
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+      .container:after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      #header ul li {
+        display: inline-block;
+      }
+      #header ul li a {
+        display: inline-block;
+        padding: 20px 20px;
+        text-decoration: none;
+        color: white;
+      }
+      #header ul li a:hover {
+        background-color: white;
+        color: black;
+      }
+      #header ul li a.active {
+        background-color: white;
+        color: black;
+      }
+      #profil{
+        display: flex;
+        height: 100vh;
+        justify-content: space-evenly;
+        align-items: center;
+        background-image: url(bgkontak.jpg);
+        background-position: center;
+        background-size: cover;
+        color: black;
+      }
+      img{
+          width: 50%;
+          height: 50%;
+          border-image-repeat: norepeat;
+      }
+      #footer {
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-color: black;
+        color: white;
+      }
+      #kartu {
+        color: black;
+        font-family: fantasy;
+        font-size: 120%;
+        text-align: left;
+
+
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <h1>
+          <a href="home.html">HOME</a>
+        </h1>
+        <ul>
+          <li><a href="mostjobs.html">About Us</a></li>
+          <li><a href="contact.html" class="active">CONTACT</li>
+        </ul>
+      </div>
+    </div>
+    <div id="profil">
+      <div id="kartu">
+        <h2>Foto di Studio Kami</h2>
+        <p>
+          studio kami terletak di Kp. Cigembreng Rt/Rw 03/06 no.72. Soreang Bandung. Kode pos 40912.<br>
+          Dengan perlengkapan yang sudah disediakan, dan cukup untuk <br>melakukan pemotretan.
+        </p>
+        <br>
+
+        <h2>foto di Lokasi Pilihan Anda</h2>
+        <p>
+          kami akan datang untuk melakukan pemotretan di tempat yang anda tentuan,<br>
+          dengan membawa properti yang kami punya.
+        </p>
+        <br>
+        <h2>Kalian Tunggu Apa Lagi, Yu Segera Booking</h2>
+        <p>
+        IG: sr_motret <br>
+        WA: 083869209468
+        </p>
+      </div>
+    </div>
+    <div id="footer">
+        <h5>SR MOTRET</h5>
+    </div>
+  </body>
+</html>
